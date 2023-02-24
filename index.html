@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NewTasklist</h1>
+        <input type="text" id="new-task" placeholder="what was the plan">
+        <input type="submit" id="addtask" value="add task">
+    </div><br>
+    <div class="list">
+        <H1>Tasklists</H1>
+        <div id="task">
+            <div id ="Tasklist">
+                <input type="text" id="old-task" placeholder="Tasklists">
+                <input type="hidden" id="save">
+                <div class ="action">
+                    <button class ="delete">Delete</button>
+                    <button class ="edit">Edit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

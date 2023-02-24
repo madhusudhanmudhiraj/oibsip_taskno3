@@ -1,0 +1,64 @@
+*{
+    background: black;
+    content: none;
+}
+
+body h1,h2{
+    background-color: aliceblue;
+}
+
+
+.container{
+  padding: 1rem;
+  width: auto;
+  border: 2px solid whitesmoke;
+
+}
+#new-task{
+    -webkit-text-fill-color: rgb(16, 17, 18);
+    background-color: aliceblue;
+}
+
+#addtask{
+    background-color: aliceblue;
+}
+
+#old-task{
+    -webkit-text-fill-color: rgb(226, 237, 237);
+}
+
+.list{
+    padding: 1rem;
+    border: 2px solid white;
+    width: auto;
+}
+
+input,button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+#task{
+    padding: 1rem;
+    border-radius: 8px;
+    width: fit-content;
+    height: auto;
+    background-color: gray;
+    -webkit-text-fill-color: aliceblue;
+}
+
+.delete{
+    -webkit-text-fill-color: crimson;
+    background-color: aliceblue;
+    float: right;
+}
+
+.edit{
+    -webkit-text-fill-color:rgb(238, 13, 50);
+    background-color: aliceblue; 
+    float: right;
+}
+
+
